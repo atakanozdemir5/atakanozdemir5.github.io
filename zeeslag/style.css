@@ -1,0 +1,209 @@
+* {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #0e7477;
+    color: #FBFBFF;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.border {
+    border-left: 90px solid #1e0368;
+    height: 1000px;
+    position: absolute;
+}
+
+.home {
+    background-color: #188dd1;
+    color: #FBFBFF;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+
+p {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+
+}
+
+.home:hover {
+    background-color: #c7c7c7;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+}
+.board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+}
+ 
+.messageArea {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: white(83, 175, 19);
+    font-size: 20px;
+}
+ 
+.table1 {
+    position: absolute;
+    left: 1038px;
+    top: 98px;
+    border-spacing: 0px;
+    border: 1px solid #070707;
+    color: w#000000;
+}
+ 
+.table2 {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0px;
+    border: 1px solid #000000;
+    color: w#000000;
+}
+ 
+td,
+th {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+}
+ 
+form {
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+ 
+img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    right: 10px;
+}
+ 
+h6 {
+    position: relative;
+    left: 100px;
+ 
+}
+ 
+.no1 {
+    width: 600px;
+    height: 600px;
+    left: 50px;
+    border: 2px solid;
+    position: absolute;
+    background-color: red;
+    top: 98px;
+    z-index: 100;
+    opacity: 0%;
+    cursor: pointer;
+}
+ 
+.no1:disabled {
+    z-index: -1;
+}
+ 
+.no2 {
+    width: 600px;
+    height: 600px;
+    left: 925px;
+    border: 2px solid;
+    position: absolute;
+    background-color: red;
+    top: 98px;
+    z-index: 100;
+    opacity: 0%;
+    cursor: pointer;
+}
+ 
+.no2:disabled {
+    z-index: -1;
+}
+ 
+.pointPlayer {
+    left: 900px;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.pointComputer {
+    width: 200px;
+    height: 200px;
+    left: 800px;
+    top: 450px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.playerField{
+    left: 175px;
+    top: 25px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.computerField {
+    left: 1040px;
+    top: 25px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.rulesPlayer{
+    left: 175px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.rulesComputer{
+    left: 1040px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.owntext {
+    width: 90px;
+    left: 810px;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+}
+ 
+.promptButton {
+    position: absolute;
+    left: 795px;
+    font-size: 20px;
+    top: 75px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 80px;
+    width: 200px;
+    background-color: #127dbb;
+    color: #FBFBFF;
+    transition: 0.5s;
+}
+ 

@@ -1,0 +1,84 @@
+.background{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/img/beautiful-nature-landscape-with-mountains-lake.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Center the container and add some padding */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    margin-top: 125px;
+}
+
+
+
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+ 
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+ 
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+ 
+.text-center{
+    text-align: center;
+}
+ 
+.dices-computer-player{
+    column-count: 2;
+}
+ 
+.dices-player{
+    column-count: 2;
+}
+ 
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+ 
+.message-box{
+    border: 1px solid black;
+}
+ 
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+ 
+.dice{
+    font-size: 64pt;
+}
+ 
+button{
+    width: 100%;
+}
